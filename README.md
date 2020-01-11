@@ -46,6 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - HTML
 - CSS
 
+## CODEB EEAT.
+(https://codebeat.co/badges/1eccc200-144d-44db-b5b2-760c6fa3a311)](https://codebeat.co/projects/github-com-jamesodera-quotes-master)
 
 Copyright <2020> <COPYRIGHT James Odera>
 
