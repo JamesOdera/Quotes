@@ -1,0 +1,30 @@
+#description,
+#name,
+#Name {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#complete {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: rgb(116, 0, 0);
+    color: rgb(38, 255, 0);
+}

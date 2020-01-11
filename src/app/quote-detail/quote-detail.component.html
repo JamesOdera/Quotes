@@ -1,0 +1,19 @@
+<p> The Author of this Quote is : <b><i>{{quote.description}}</i></b></p>
+
+
+<button id="btn" class=" btn btn-info" (click)='voteUp()' type="submit">
+    <span class="glyphicon glyphicon-thumbs-u" aria-hidden="true"></span>
+  
+    <span class="badge">{{upvote}} Upvotes</span>
+  </button>
+
+<button (click)='voteDown()' id="btn" class="btn btn-info" type="submit">
+  
+    <span class="badge">{{downvote}} Downvotes</span>
+  </button>
+
+
+<p>this quote was added by <i>{{quote.Name}} .</i> </p>
+
+<p>this quote was created {{quote.completeDate | dateCount}} day/days ago</p>
+<button (click)='quoteDelete(true)' class="btn btn-danger">Delete Quote</button>
